@@ -7,7 +7,7 @@ Este repositório é uma amostra de um dashboard desenvolvido em Python com Plot
 
 
 
-## Instalação e uso
+## Instalação
 
 Para utilizar o dashboard, faça um fork do projeto e utilize
 
@@ -17,6 +17,10 @@ pip install -r requirements
 
 para instalar as dependências. Tenha preferência para um ambiente virtual com Python 3.9.10.
 
+
+## Uso
+
+Para criar um servidor local, utilize python app.py na raiz do programa. Então, basta acessar o link que será gerado. 
 
 ## Dashboard
 
