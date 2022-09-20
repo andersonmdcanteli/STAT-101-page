@@ -1,0 +1,601 @@
+species,size,Média,Mediana,Moda,Std,IC (90%),IC (95%),IC (99%),CV (%),Normalidade,kind,data_set
+setosa,1,5.1,5.1,5.1,-,-,-,-,-,-,sepal_length,iris
+setosa,2,5.0,5.0,None ,0.141,0.631,1.271,6.366,2.83,-,sepal_length,iris
+setosa,3,4.9,4.9,None ,0.2,0.337,0.497,1.146,4.08,Sim,sepal_length,iris
+setosa,4,4.825,4.8,None ,0.222,0.261,0.353,0.648,4.6,Sim,sepal_length,iris
+setosa,5,4.86,4.9,None ,0.207,0.198,0.257,0.427,4.27,Sim,sepal_length,iris
+setosa,6,4.95,4.95,None ,0.288,0.237,0.302,0.474,5.82,Sim,sepal_length,iris
+setosa,7,4.9,4.9,4.6 ,0.294,0.216,0.272,0.413,6.01,Sim,sepal_length,iris
+setosa,8,4.912,4.95,4.6 & 5.0 ,0.275,0.184,0.23,0.34,5.59,Sim,sepal_length,iris
+setosa,9,4.856,4.9,4.6 & 5.0 ,0.309,0.191,0.237,0.345,6.36,Sim,sepal_length,iris
+setosa,10,4.86,4.9,4.9 & 4.6 & 5.0 ,0.291,0.169,0.208,0.299,5.99,Sim,sepal_length,iris
+setosa,11,4.909,4.9,4.9 & 4.6 & 5.0 & 5.4 ,0.321,0.175,0.216,0.307,6.53,Sim,sepal_length,iris
+setosa,12,4.9,4.9,4.9 & 4.6 & 5.0 & 5.4 ,0.307,0.159,0.195,0.276,6.28,Sim,sepal_length,iris
+setosa,13,4.892,4.9,4.9 & 4.6 & 5.0 & 5.4 & 4.8 ,0.296,0.146,0.179,0.251,6.04,Sim,sepal_length,iris
+setosa,14,4.85,4.85,4.9 & 4.6 & 5.0 & 5.4 & 4.8 ,0.325,0.154,0.188,0.262,6.71,Sim,sepal_length,iris
+setosa,15,4.913,4.9,4.9 & 4.6 & 5.0 & 5.4 & 4.8 ,0.398,0.181,0.22,0.306,8.1,Sim,sepal_length,iris
+setosa,16,4.962,4.9,4.9 & 4.6 & 5.0 & 5.4 & 4.8 ,0.432,0.189,0.23,0.318,8.7,Sim,sepal_length,iris
+setosa,17,4.988,4.9,5.4 ,0.431,0.183,0.222,0.306,8.65,Sim,sepal_length,iris
+setosa,18,4.994,4.95,5.4 ,0.419,0.172,0.209,0.286,8.4,Sim,sepal_length,iris
+setosa,19,5.032,5.0,5.4 ,0.438,0.174,0.211,0.29,8.71,Sim,sepal_length,iris
+setosa,20,5.035,5.0,5.1 & 5.4 ,0.427,0.165,0.2,0.273,8.48,Sim,sepal_length,iris
+setosa,21,5.052,5.0,5.4 ,0.424,0.16,0.193,0.263,8.39,Sim,sepal_length,iris
+setosa,22,5.055,5.05,5.1 & 5.4 ,0.414,0.152,0.183,0.25,8.19,Sim,sepal_length,iris
+setosa,23,5.035,5.0,5.1 & 5.4 ,0.415,0.149,0.18,0.244,8.25,Sim,sepal_length,iris
+setosa,24,5.038,5.05,5.1 ,0.406,0.142,0.172,0.233,8.06,Sim,sepal_length,iris
+setosa,25,5.028,5.0,5.1 ,0.401,0.137,0.165,0.224,7.97,Sim,sepal_length,iris
+setosa,26,5.027,5.0,5.1 ,0.392,0.131,0.159,0.215,7.81,Sim,sepal_length,iris
+setosa,27,5.026,5.0,5.1 ,0.385,0.126,0.152,0.206,7.66,Sim,sepal_length,iris
+setosa,28,5.032,5.0,5.1 ,0.379,0.122,0.147,0.199,7.53,Sim,sepal_length,iris
+setosa,29,5.038,5.0,5.1 ,0.374,0.118,0.142,0.192,7.42,Sim,sepal_length,iris
+setosa,30,5.027,5.0,5.1 ,0.372,0.115,0.139,0.187,7.41,Sim,sepal_length,iris
+setosa,31,5.019,5.0,5.1 ,0.368,0.112,0.135,0.182,7.34,Sim,sepal_length,iris
+setosa,32,5.031,5.0,5.1 & 5.4 ,0.368,0.11,0.133,0.179,7.32,Sim,sepal_length,iris
+setosa,33,5.036,5.0,5.1 & 5.4 ,0.364,0.107,0.129,0.173,7.22,Sim,sepal_length,iris
+setosa,34,5.05,5.05,5.1 & 5.4 ,0.367,0.107,0.128,0.172,7.27,Sim,sepal_length,iris
+setosa,35,5.046,5.0,5.1 & 5.4 ,0.362,0.104,0.125,0.167,7.18,Sim,sepal_length,iris
+setosa,36,5.044,5.0,5.1 & 5.0 & 5.4 ,0.357,0.101,0.121,0.162,7.08,Sim,sepal_length,iris
+setosa,37,5.057,5.0,5.1 & 5.0 & 5.4 ,0.36,0.1,0.12,0.161,7.12,Sim,sepal_length,iris
+setosa,38,5.053,5.0,5.1 & 5.0 & 5.4 ,0.356,0.097,0.117,0.157,7.05,Sim,sepal_length,iris
+setosa,39,5.036,5.0,5.1 & 5.0 & 5.4 ,0.367,0.099,0.119,0.159,7.28,Sim,sepal_length,iris
+setosa,40,5.038,5.0,5.1 ,0.362,0.096,0.116,0.155,7.19,Sim,sepal_length,iris
+setosa,41,5.037,5.0,5.1 & 5.0 ,0.358,0.094,0.113,0.151,7.1,Sim,sepal_length,iris
+setosa,42,5.024,5.0,5.1 & 5.0 ,0.363,0.094,0.113,0.151,7.22,Sim,sepal_length,iris
+setosa,43,5.009,5.0,5.1 & 5.0 ,0.371,0.095,0.114,0.153,7.4,Sim,sepal_length,iris
+setosa,44,5.009,5.0,5.0 ,0.367,0.093,0.111,0.149,7.32,Sim,sepal_length,iris
+setosa,45,5.011,5.0,5.1 & 5.0 ,0.363,0.091,0.109,0.146,7.24,Sim,sepal_length,iris
+setosa,46,5.007,5.0,5.1 & 5.0 ,0.36,0.089,0.107,0.143,7.19,Sim,sepal_length,iris
+setosa,47,5.009,5.0,5.1 ,0.356,0.087,0.105,0.14,7.11,Sim,sepal_length,iris
+setosa,48,5.0,5.0,5.1 ,0.357,0.087,0.104,0.138,7.15,Sim,sepal_length,iris
+setosa,49,5.006,5.0,5.1 ,0.356,0.085,0.102,0.136,7.11,Sim,sepal_length,iris
+setosa,50,5.006,5.0,5.1 & 5.0 ,0.352,0.084,0.1,0.134,7.04,Sim,sepal_length,iris
+setosa,1,3.5,3.5,3.5,-,-,-,-,-,-,sepal_width,iris
+setosa,2,3.25,3.25,None ,0.354,1.578,3.177,15.914,10.88,-,sepal_width,iris
+setosa,3,3.233,3.2,None ,0.252,0.424,0.625,1.442,7.78,Sim,sepal_width,iris
+setosa,4,3.2,3.15,None ,0.216,0.254,0.344,0.631,6.75,Sim,sepal_width,iris
+setosa,5,3.28,3.2,None ,0.259,0.247,0.321,0.533,7.89,Sim,sepal_width,iris
+setosa,6,3.383,3.35,None ,0.343,0.282,0.36,0.565,10.14,Sim,sepal_width,iris
+setosa,7,3.386,3.4,None ,0.313,0.23,0.29,0.439,9.25,Sim,sepal_width,iris
+setosa,8,3.388,3.4,3.4 ,0.29,0.194,0.242,0.359,8.56,Sim,sepal_width,iris
+setosa,9,3.333,3.4,3.4 ,0.316,0.196,0.243,0.354,9.49,Sim,sepal_width,iris
+setosa,10,3.31,3.3,3.1 & 3.4 ,0.307,0.178,0.22,0.316,9.28,Sim,sepal_width,iris
+setosa,11,3.345,3.4,3.1 & 3.4 ,0.314,0.172,0.211,0.3,9.39,Sim,sepal_width,iris
+setosa,12,3.35,3.4,3.4 ,0.3,0.156,0.191,0.269,8.96,Sim,sepal_width,iris
+setosa,13,3.323,3.4,3.4 ,0.303,0.15,0.183,0.257,9.12,Sim,sepal_width,iris
+setosa,14,3.3,3.3,3.0 & 3.4 ,0.304,0.144,0.175,0.245,9.21,Sim,sepal_width,iris
+setosa,15,3.347,3.4,3.0 & 3.4 ,0.344,0.156,0.191,0.264,10.28,Sim,sepal_width,iris
+setosa,16,3.412,3.4,3.0 & 3.4 ,0.424,0.186,0.226,0.312,12.43,Sim,sepal_width,iris
+setosa,17,3.441,3.4,3.0 & 3.4 ,0.427,0.181,0.22,0.303,12.42,Sim,sepal_width,iris
+setosa,18,3.444,3.4,3.0 & 3.4 ,0.415,0.17,0.206,0.283,12.04,Sim,sepal_width,iris
+setosa,19,3.463,3.4,3.0 & 3.4 ,0.411,0.164,0.198,0.272,11.87,Sim,sepal_width,iris
+setosa,20,3.48,3.45,3.0 & 3.4 ,0.407,0.157,0.191,0.261,11.7,Sim,sepal_width,iris
+setosa,21,3.476,3.4,3.4 ,0.397,0.15,0.181,0.247,11.43,Sim,sepal_width,iris
+setosa,22,3.486,3.45,3.4 ,0.391,0.143,0.173,0.236,11.21,Sim,sepal_width,iris
+setosa,23,3.491,3.5,3.4 ,0.382,0.137,0.165,0.225,10.95,Sim,sepal_width,iris
+setosa,24,3.483,3.45,3.4 ,0.376,0.132,0.159,0.216,10.8,Sim,sepal_width,iris
+setosa,25,3.48,3.4,3.4 ,0.369,0.126,0.152,0.206,10.59,Sim,sepal_width,iris
+setosa,26,3.462,3.4,3.4 ,0.373,0.125,0.151,0.204,10.78,Sim,sepal_width,iris
+setosa,27,3.459,3.4,3.4 ,0.366,0.12,0.145,0.196,10.58,Sim,sepal_width,iris
+setosa,28,3.461,3.4,3.4 ,0.359,0.116,0.139,0.188,10.38,Sim,sepal_width,iris
+setosa,29,3.459,3.4,3.4 ,0.353,0.112,0.134,0.181,10.21,Sim,sepal_width,iris
+setosa,30,3.45,3.4,3.4 ,0.35,0.109,0.131,0.176,10.15,Sim,sepal_width,iris
+setosa,31,3.439,3.4,3.4 ,0.35,0.107,0.128,0.173,10.18,Sim,sepal_width,iris
+setosa,32,3.438,3.4,3.4 ,0.344,0.103,0.124,0.167,10.02,Sim,sepal_width,iris
+setosa,33,3.458,3.4,3.4 ,0.358,0.106,0.127,0.171,10.35,Sim,sepal_width,iris
+setosa,34,3.479,3.4,3.4 ,0.375,0.109,0.131,0.176,10.77,Sim,sepal_width,iris
+setosa,35,3.469,3.4,3.4 ,0.375,0.107,0.129,0.173,10.8,Sim,sepal_width,iris
+setosa,36,3.461,3.4,3.4 ,0.372,0.105,0.126,0.169,10.75,Sim,sepal_width,iris
+setosa,37,3.462,3.4,3.4 ,0.367,0.102,0.122,0.164,10.6,Sim,sepal_width,iris
+setosa,38,3.466,3.4,3.4 ,0.363,0.099,0.119,0.16,10.46,Sim,sepal_width,iris
+setosa,39,3.454,3.4,3.4 ,0.366,0.099,0.118,0.159,10.58,Sim,sepal_width,iris
+setosa,40,3.453,3.4,3.4 ,0.361,0.096,0.115,0.155,10.45,Sim,sepal_width,iris
+setosa,41,3.454,3.4,3.4 ,0.356,0.094,0.113,0.151,10.32,Sim,sepal_width,iris
+setosa,42,3.426,3.4,3.4 ,0.395,0.102,0.123,0.164,11.51,Sim,sepal_width,iris
+setosa,43,3.421,3.4,3.4 ,0.391,0.1,0.12,0.161,11.44,Sim,sepal_width,iris
+setosa,44,3.423,3.4,3.4 ,0.387,0.098,0.118,0.157,11.3,Sim,sepal_width,iris
+setosa,45,3.431,3.4,3.4 ,0.387,0.097,0.116,0.155,11.27,Sim,sepal_width,iris
+setosa,46,3.422,3.4,3.4 ,0.388,0.096,0.115,0.154,11.33,Sim,sepal_width,iris
+setosa,47,3.43,3.4,3.4 ,0.387,0.095,0.114,0.152,11.29,Sim,sepal_width,iris
+setosa,48,3.425,3.4,3.4 ,0.385,0.093,0.112,0.149,11.23,Sim,sepal_width,iris
+setosa,49,3.431,3.4,3.4 ,0.383,0.092,0.11,0.147,11.15,Sim,sepal_width,iris
+setosa,50,3.428,3.4,3.4 ,0.379,0.09,0.108,0.144,11.06,Sim,sepal_width,iris
+setosa,1,1.4,1.4,1.4,-,-,-,-,-,-,petal_length,iris
+setosa,2,1.4,1.4,1.4 ,0.0,0.0,0.0,0.0,0.0,-,petal_length,iris
+setosa,3,1.367,1.4,1.4 ,0.058,0.097,0.143,0.331,4.22,Não,petal_length,iris
+setosa,4,1.4,1.4,1.4 ,0.082,0.096,0.13,0.238,5.83,Sim,petal_length,iris
+setosa,5,1.4,1.4,1.4 ,0.071,0.067,0.088,0.146,5.05,Sim,petal_length,iris
+setosa,6,1.45,1.4,1.4 ,0.138,0.113,0.145,0.227,9.51,Sim,petal_length,iris
+setosa,7,1.443,1.4,1.4 ,0.127,0.093,0.118,0.178,8.82,Sim,petal_length,iris
+setosa,8,1.45,1.4,1.4 ,0.12,0.08,0.1,0.148,8.24,Sim,petal_length,iris
+setosa,9,1.444,1.4,1.4 ,0.113,0.07,0.087,0.126,7.83,Não,petal_length,iris
+setosa,10,1.45,1.4,1.4 ,0.108,0.063,0.077,0.111,7.45,Não,petal_length,iris
+setosa,11,1.455,1.4,1.4 ,0.104,0.057,0.07,0.099,7.12,Não,petal_length,iris
+setosa,12,1.467,1.45,1.4 ,0.107,0.056,0.068,0.096,7.32,Sim,petal_length,iris
+setosa,13,1.462,1.4,1.4 ,0.104,0.052,0.063,0.088,7.14,Sim,petal_length,iris
+setosa,14,1.436,1.4,1.4 ,0.139,0.066,0.08,0.112,9.7,Sim,petal_length,iris
+setosa,15,1.42,1.4,1.4 ,0.147,0.067,0.082,0.113,10.38,Sim,petal_length,iris
+setosa,16,1.425,1.4,1.4 ,0.144,0.063,0.077,0.106,10.09,Sim,petal_length,iris
+setosa,17,1.418,1.4,1.4 ,0.142,0.06,0.073,0.101,10.05,Sim,petal_length,iris
+setosa,18,1.417,1.4,1.4 ,0.138,0.057,0.069,0.094,9.76,Sim,petal_length,iris
+setosa,19,1.432,1.4,1.4 ,0.149,0.059,0.072,0.099,10.43,Sim,petal_length,iris
+setosa,20,1.435,1.4,1.4 ,0.146,0.056,0.068,0.093,10.18,Sim,petal_length,iris
+setosa,21,1.448,1.4,1.4 ,0.154,0.058,0.07,0.095,10.62,Sim,petal_length,iris
+setosa,22,1.45,1.45,1.4 & 1.5 ,0.15,0.055,0.067,0.091,10.37,Sim,petal_length,iris
+setosa,23,1.43,1.4,1.4 & 1.5 ,0.174,0.062,0.075,0.102,12.19,Sim,petal_length,iris
+setosa,24,1.442,1.45,1.4 & 1.5 ,0.179,0.063,0.076,0.103,12.43,Sim,petal_length,iris
+setosa,25,1.46,1.5,1.4 & 1.5 ,0.198,0.068,0.082,0.111,13.56,Sim,petal_length,iris
+setosa,26,1.465,1.5,1.4 & 1.5 ,0.196,0.066,0.079,0.107,13.36,Sim,petal_length,iris
+setosa,27,1.47,1.5,1.4 & 1.5 ,0.194,0.064,0.077,0.104,13.18,Sim,petal_length,iris
+setosa,28,1.471,1.5,1.5 ,0.19,0.061,0.074,0.1,12.93,Sim,petal_length,iris
+setosa,29,1.469,1.5,1.4 & 1.5 ,0.187,0.059,0.071,0.096,12.75,Sim,petal_length,iris
+setosa,30,1.473,1.5,1.4 & 1.5 ,0.186,0.058,0.069,0.093,12.6,Sim,petal_length,iris
+setosa,31,1.477,1.5,1.4 & 1.5 ,0.184,0.056,0.067,0.091,12.45,Sim,petal_length,iris
+setosa,32,1.478,1.5,1.5 ,0.181,0.054,0.065,0.088,12.24,Sim,petal_length,iris
+setosa,33,1.479,1.5,1.5 ,0.178,0.053,0.063,0.085,12.04,Sim,petal_length,iris
+setosa,34,1.476,1.5,1.5 ,0.176,0.051,0.061,0.082,11.91,Sim,petal_length,iris
+setosa,35,1.477,1.5,1.5 ,0.173,0.05,0.06,0.08,11.74,Sim,petal_length,iris
+setosa,36,1.469,1.5,1.5 ,0.177,0.05,0.06,0.08,12.04,Sim,petal_length,iris
+setosa,37,1.465,1.5,1.5 ,0.177,0.049,0.059,0.079,12.06,Sim,petal_length,iris
+setosa,38,1.463,1.5,1.5 ,0.175,0.048,0.057,0.077,11.94,Sim,petal_length,iris
+setosa,39,1.459,1.5,1.5 ,0.174,0.047,0.056,0.076,11.95,Sim,petal_length,iris
+setosa,40,1.46,1.5,1.5 ,0.172,0.046,0.055,0.074,11.79,Sim,petal_length,iris
+setosa,41,1.456,1.5,1.5 ,0.172,0.045,0.054,0.073,11.8,Sim,petal_length,iris
+setosa,42,1.452,1.5,1.5 ,0.171,0.045,0.053,0.071,11.8,Sim,petal_length,iris
+setosa,43,1.449,1.5,1.5 ,0.171,0.044,0.053,0.07,11.8,Sim,petal_length,iris
+setosa,44,1.452,1.5,1.5 ,0.17,0.043,0.052,0.069,11.74,Sim,petal_length,iris
+setosa,45,1.462,1.5,1.5 ,0.181,0.045,0.054,0.073,12.4,Sim,petal_length,iris
+setosa,46,1.461,1.5,1.5 ,0.179,0.044,0.053,0.071,12.29,Sim,petal_length,iris
+setosa,47,1.464,1.5,1.5 ,0.179,0.044,0.052,0.07,12.21,Sim,petal_length,iris
+setosa,48,1.463,1.5,1.4 & 1.5 ,0.177,0.043,0.051,0.069,12.1,Sim,petal_length,iris
+setosa,49,1.463,1.5,1.5 ,0.175,0.042,0.05,0.067,11.98,Sim,petal_length,iris
+setosa,50,1.462,1.5,1.4 & 1.5 ,0.174,0.041,0.049,0.066,11.88,Sim,petal_length,iris
+setosa,1,0.2,0.2,0.2,-,-,-,-,-,-,petal_width,iris
+setosa,2,0.2,0.2,0.2 ,0.0,0.0,0.0,0.0,0.0,-,petal_width,iris
+setosa,3,0.2,0.2,0.2 ,0.0,0.0,0.0,0.0,0.0,Sim,petal_width,iris
+setosa,4,0.2,0.2,0.2 ,0.0,0.0,0.0,0.0,0.0,Sim,petal_width,iris
+setosa,5,0.2,0.2,0.2 ,0.0,0.0,0.0,0.0,0.0,Sim,petal_width,iris
+setosa,6,0.233,0.2,0.2 ,0.082,0.067,0.086,0.134,34.99,Não,petal_width,iris
+setosa,7,0.243,0.2,0.2 ,0.079,0.058,0.073,0.11,32.4,Não,petal_width,iris
+setosa,8,0.238,0.2,0.2 ,0.074,0.05,0.062,0.092,31.33,Não,petal_width,iris
+setosa,9,0.233,0.2,0.2 ,0.071,0.044,0.054,0.079,30.3,Não,petal_width,iris
+setosa,10,0.22,0.2,0.2 ,0.079,0.046,0.056,0.081,35.86,Não,petal_width,iris
+setosa,11,0.218,0.2,0.2 ,0.075,0.041,0.05,0.072,34.41,Não,petal_width,iris
+setosa,12,0.217,0.2,0.2 ,0.072,0.037,0.046,0.064,33.13,Não,petal_width,iris
+setosa,13,0.208,0.2,0.2 ,0.076,0.038,0.046,0.064,36.57,Não,petal_width,iris
+setosa,14,0.2,0.2,0.2 ,0.078,0.037,0.045,0.063,39.22,Não,petal_width,iris
+setosa,15,0.2,0.2,0.2 ,0.076,0.034,0.042,0.058,37.8,Não,petal_width,iris
+setosa,16,0.213,0.2,0.2 ,0.089,0.039,0.047,0.065,41.65,Não,petal_width,iris
+setosa,17,0.224,0.2,0.2 ,0.097,0.041,0.05,0.069,43.4,Não,petal_width,iris
+setosa,18,0.228,0.2,0.2 ,0.096,0.039,0.048,0.065,42.07,Não,petal_width,iris
+setosa,19,0.232,0.2,0.2 ,0.095,0.038,0.046,0.062,40.85,Não,petal_width,iris
+setosa,20,0.235,0.2,0.2 ,0.093,0.036,0.044,0.06,39.71,Não,petal_width,iris
+setosa,21,0.233,0.2,0.2 ,0.091,0.034,0.042,0.057,39.12,Não,petal_width,iris
+setosa,22,0.241,0.2,0.2 ,0.096,0.035,0.043,0.058,39.81,Não,petal_width,iris
+setosa,23,0.239,0.2,0.2 ,0.094,0.034,0.041,0.055,39.35,Não,petal_width,iris
+setosa,24,0.25,0.2,0.2 ,0.106,0.037,0.045,0.061,42.53,Não,petal_width,iris
+setosa,25,0.248,0.2,0.2 ,0.105,0.036,0.043,0.058,42.16,Não,petal_width,iris
+setosa,26,0.246,0.2,0.2 ,0.103,0.034,0.042,0.056,41.8,Não,petal_width,iris
+setosa,27,0.252,0.2,0.2 ,0.105,0.035,0.042,0.056,41.75,Não,petal_width,iris
+setosa,28,0.25,0.2,0.2 ,0.104,0.033,0.04,0.054,41.46,Não,petal_width,iris
+setosa,29,0.248,0.2,0.2 ,0.102,0.032,0.039,0.052,41.16,Não,petal_width,iris
+setosa,30,0.247,0.2,0.2 ,0.101,0.031,0.038,0.051,40.87,Não,petal_width,iris
+setosa,31,0.245,0.2,0.2 ,0.099,0.03,0.036,0.049,40.57,Não,petal_width,iris
+setosa,32,0.25,0.2,0.2 ,0.102,0.03,0.037,0.049,40.64,Não,petal_width,iris
+setosa,33,0.245,0.2,0.2 ,0.103,0.03,0.037,0.049,42.11,Não,petal_width,iris
+setosa,34,0.244,0.2,0.2 ,0.102,0.03,0.036,0.048,41.81,Não,petal_width,iris
+setosa,35,0.243,0.2,0.2 ,0.101,0.029,0.035,0.047,41.52,Não,petal_width,iris
+setosa,36,0.242,0.2,0.2 ,0.1,0.028,0.034,0.045,41.23,Não,petal_width,iris
+setosa,37,0.241,0.2,0.2 ,0.098,0.027,0.033,0.044,40.94,Não,petal_width,iris
+setosa,38,0.237,0.2,0.2 ,0.1,0.027,0.033,0.044,42.13,Não,petal_width,iris
+setosa,39,0.236,0.2,0.2 ,0.099,0.027,0.032,0.043,41.82,Não,petal_width,iris
+setosa,40,0.235,0.2,0.2 ,0.098,0.026,0.031,0.042,41.5,Não,petal_width,iris
+setosa,41,0.237,0.2,0.2 ,0.097,0.025,0.031,0.041,40.93,Não,petal_width,iris
+setosa,42,0.238,0.2,0.2 ,0.096,0.025,0.03,0.04,40.38,Não,petal_width,iris
+setosa,43,0.237,0.2,0.2 ,0.095,0.024,0.029,0.039,40.12,Não,petal_width,iris
+setosa,44,0.245,0.2,0.2 ,0.109,0.028,0.033,0.044,44.33,Não,petal_width,iris
+setosa,45,0.249,0.2,0.2 ,0.11,0.028,0.033,0.044,44.2,Não,petal_width,iris
+setosa,46,0.25,0.2,0.2 ,0.109,0.027,0.032,0.043,43.61,Não,petal_width,iris
+setosa,47,0.249,0.2,0.2 ,0.108,0.026,0.032,0.042,43.42,Não,petal_width,iris
+setosa,48,0.248,0.2,0.2 ,0.107,0.026,0.031,0.042,43.23,Não,petal_width,iris
+setosa,49,0.247,0.2,0.2 ,0.106,0.025,0.031,0.041,43.03,Não,petal_width,iris
+setosa,50,0.246,0.2,0.2 ,0.105,0.025,0.03,0.04,42.84,Não,petal_width,iris
+virginica,1,6.3,6.3,6.3,-,-,-,-,-,-,sepal_length,iris
+virginica,2,6.05,6.05,None ,0.354,1.578,3.177,15.914,5.84,-,sepal_length,iris
+virginica,3,6.4,6.3,None ,0.656,1.105,1.629,3.757,10.25,Sim,sepal_length,iris
+virginica,4,6.375,6.3,6.3 ,0.538,0.633,0.856,1.57,8.44,Sim,sepal_length,iris
+virginica,5,6.4,6.3,6.3 ,0.469,0.447,0.582,0.966,7.33,Sim,sepal_length,iris
+virginica,6,6.6,6.4,6.3 ,0.645,0.531,0.677,1.062,9.77,Sim,sepal_length,iris
+virginica,7,6.357,6.3,6.3 ,0.872,0.64,0.806,1.221,13.71,Sim,sepal_length,iris
+virginica,8,6.475,6.4,6.3 ,0.873,0.585,0.73,1.08,13.48,Sim,sepal_length,iris
+virginica,9,6.5,6.5,6.3 ,0.82,0.508,0.63,0.917,12.62,Sim,sepal_length,iris
+virginica,10,6.57,6.6,6.3 ,0.804,0.466,0.575,0.826,12.24,Sim,sepal_length,iris
+virginica,11,6.564,6.5,6.3 & 6.5 ,0.763,0.417,0.513,0.729,11.63,Sim,sepal_length,iris
+virginica,12,6.55,6.5,6.3 & 6.5 ,0.729,0.378,0.463,0.654,11.13,Sim,sepal_length,iris
+virginica,13,6.569,6.5,6.3 & 6.5 ,0.702,0.347,0.424,0.594,10.68,Sim,sepal_length,iris
+virginica,14,6.507,6.5,6.3 & 6.5 ,0.713,0.337,0.412,0.574,10.96,Sim,sepal_length,iris
+virginica,15,6.46,6.5,6.3 & 5.8 & 6.5 ,0.711,0.323,0.394,0.546,11.01,Sim,sepal_length,iris
+virginica,16,6.456,6.45,6.3 & 5.8 & 6.5 & 6.4 ,0.687,0.301,0.366,0.506,10.64,Sim,sepal_length,iris
+virginica,17,6.459,6.5,6.5 ,0.665,0.282,0.342,0.471,10.3,Sim,sepal_length,iris
+virginica,18,6.528,6.5,6.5 ,0.709,0.291,0.352,0.484,10.86,Sim,sepal_length,iris
+virginica,19,6.589,6.5,6.5 ,0.739,0.294,0.356,0.488,11.22,Sim,sepal_length,iris
+virginica,20,6.56,6.5,6.5 ,0.732,0.283,0.342,0.468,11.15,Sim,sepal_length,iris
+virginica,21,6.576,6.5,6.5 ,0.717,0.27,0.326,0.445,10.9,Sim,sepal_length,iris
+virginica,22,6.532,6.5,6.5 ,0.73,0.268,0.324,0.441,11.17,Sim,sepal_length,iris
+virginica,23,6.583,6.5,6.5 & 7.7 ,0.754,0.27,0.326,0.443,11.45,Sim,sepal_length,iris
+virginica,24,6.571,6.5,6.3 & 6.5 & 7.7 ,0.739,0.259,0.312,0.424,11.25,Sim,sepal_length,iris
+virginica,25,6.576,6.5,6.3 & 6.5 & 7.7 ,0.724,0.248,0.299,0.405,11.01,Sim,sepal_length,iris
+virginica,26,6.6,6.5,6.3 & 6.5 & 7.7 ,0.72,0.241,0.291,0.394,10.91,Sim,sepal_length,iris
+virginica,27,6.585,6.5,6.3 & 6.5 & 7.7 ,0.71,0.233,0.281,0.38,10.78,Sim,sepal_length,iris
+virginica,28,6.568,6.5,6.3 & 6.5 & 7.7 ,0.703,0.226,0.273,0.368,10.7,Sim,sepal_length,iris
+virginica,29,6.562,6.5,6.3 & 6.5 & 6.4 & 7.7 ,0.691,0.218,0.263,0.355,10.53,Sim,sepal_length,iris
+virginica,30,6.583,6.5,6.3 & 6.5 & 7.2 & 6.4 & 7.7 ,0.689,0.214,0.257,0.347,10.46,Sim,sepal_length,iris
+virginica,31,6.61,6.5,6.3 & 6.5 & 7.2 & 6.4 & 7.7 ,0.693,0.211,0.254,0.342,10.48,Sim,sepal_length,iris
+virginica,32,6.65,6.5,6.3 & 6.5 & 7.2 & 6.4 & 7.7 ,0.719,0.215,0.259,0.349,10.81,Sim,sepal_length,iris
+virginica,33,6.642,6.5,6.4 ,0.709,0.209,0.251,0.338,10.67,Sim,sepal_length,iris
+virginica,34,6.632,6.5,6.3 & 6.4 ,0.701,0.203,0.244,0.328,10.56,Sim,sepal_length,iris
+virginica,35,6.617,6.5,6.3 & 6.4 ,0.696,0.199,0.239,0.321,10.52,Sim,sepal_length,iris
+virginica,36,6.647,6.5,6.3 & 6.4 & 7.7 ,0.709,0.2,0.24,0.322,10.67,Sim,sepal_length,iris
+virginica,37,6.638,6.5,6.3 ,0.702,0.195,0.234,0.314,10.57,Sim,sepal_length,iris
+virginica,38,6.632,6.45,6.3 & 6.4 ,0.693,0.19,0.228,0.305,10.45,Sim,sepal_length,iris
+virginica,39,6.615,6.4,6.3 & 6.4 ,0.692,0.187,0.224,0.3,10.45,Sim,sepal_length,iris
+virginica,40,6.622,6.45,6.3 & 6.4 ,0.684,0.182,0.219,0.293,10.33,Sim,sepal_length,iris
+virginica,41,6.624,6.5,6.3 & 6.4 ,0.676,0.178,0.213,0.285,10.2,Sim,sepal_length,iris
+virginica,42,6.631,6.5,6.3 & 6.4 ,0.669,0.174,0.208,0.279,10.08,Sim,sepal_length,iris
+virginica,43,6.612,6.5,6.3 & 6.4 ,0.673,0.173,0.207,0.277,10.17,Sim,sepal_length,iris
+virginica,44,6.616,6.5,6.3 & 6.4 ,0.665,0.169,0.202,0.27,10.06,Sim,sepal_length,iris
+virginica,45,6.618,6.5,6.3 & 6.4 ,0.658,0.165,0.198,0.264,9.94,Sim,sepal_length,iris
+virginica,46,6.62,6.5,6.3 & 6.7 & 6.4 ,0.651,0.161,0.193,0.258,9.83,Sim,sepal_length,iris
+virginica,47,6.613,6.5,6.3 ,0.645,0.158,0.189,0.253,9.76,Sim,sepal_length,iris
+virginica,48,6.61,6.5,6.3 ,0.639,0.155,0.185,0.247,9.66,Sim,sepal_length,iris
+virginica,49,6.602,6.5,6.3 ,0.635,0.152,0.182,0.243,9.61,Sim,sepal_length,iris
+virginica,50,6.588,6.5,6.3 ,0.636,0.151,0.181,0.241,9.65,Sim,sepal_length,iris
+virginica,1,3.3,3.3,3.3,-,-,-,-,-,-,sepal_width,iris
+virginica,2,3.0,3.0,None ,0.424,1.894,3.812,19.097,14.14,-,sepal_width,iris
+virginica,3,3.0,3.0,None ,0.3,0.506,0.745,1.719,10.0,Sim,sepal_width,iris
+virginica,4,2.975,2.95,None ,0.25,0.294,0.398,0.73,8.4,Sim,sepal_width,iris
+virginica,5,2.98,3.0,3.0 ,0.217,0.207,0.269,0.446,7.27,Sim,sepal_width,iris
+virginica,6,2.983,3.0,3.0 ,0.194,0.16,0.204,0.319,6.51,Sim,sepal_width,iris
+virginica,7,2.914,3.0,3.0 ,0.254,0.187,0.235,0.357,8.73,Sim,sepal_width,iris
+virginica,8,2.912,2.95,3.0 ,0.236,0.158,0.197,0.292,8.09,Sim,sepal_width,iris
+virginica,9,2.867,2.9,3.0 ,0.26,0.161,0.2,0.291,9.06,Sim,sepal_width,iris
+virginica,10,2.94,2.95,3.0 ,0.337,0.196,0.241,0.347,11.47,Sim,sepal_width,iris
+virginica,11,2.964,3.0,3.0 ,0.329,0.18,0.221,0.315,11.12,Sim,sepal_width,iris
+virginica,12,2.942,2.95,3.0 ,0.323,0.168,0.205,0.29,10.99,Sim,sepal_width,iris
+virginica,13,2.946,3.0,3.0 ,0.31,0.153,0.187,0.263,10.52,Sim,sepal_width,iris
+virginica,14,2.914,2.95,3.0 ,0.321,0.152,0.185,0.258,11.0,Sim,sepal_width,iris
+virginica,15,2.907,2.9,3.0 ,0.31,0.141,0.172,0.239,10.68,Sim,sepal_width,iris
+virginica,16,2.925,2.95,3.0 ,0.309,0.135,0.165,0.227,10.56,Sim,sepal_width,iris
+virginica,17,2.929,3.0,3.0 ,0.3,0.127,0.154,0.212,10.22,Sim,sepal_width,iris
+virginica,18,2.978,3.0,3.0 ,0.356,0.146,0.177,0.243,11.95,Sim,sepal_width,iris
+virginica,19,2.958,3.0,3.0 ,0.356,0.142,0.172,0.235,12.05,Sim,sepal_width,iris
+virginica,20,2.92,2.95,3.0 ,0.386,0.149,0.181,0.247,13.22,Sim,sepal_width,iris
+virginica,21,2.933,3.0,3.0 ,0.381,0.143,0.174,0.237,13.0,Sim,sepal_width,iris
+virginica,22,2.927,2.95,3.0 ,0.373,0.137,0.165,0.225,12.75,Sim,sepal_width,iris
+virginica,23,2.922,2.9,3.0 ,0.366,0.131,0.158,0.215,12.51,Sim,sepal_width,iris
+virginica,24,2.912,2.9,3.0 ,0.36,0.126,0.152,0.206,12.37,Sim,sepal_width,iris
+virginica,25,2.928,2.9,3.0 ,0.361,0.124,0.149,0.202,12.33,Sim,sepal_width,iris
+virginica,26,2.938,2.95,3.0 ,0.358,0.12,0.145,0.196,12.18,Sim,sepal_width,iris
+virginica,27,2.933,2.9,3.0 ,0.352,0.116,0.139,0.188,12.0,Sim,sepal_width,iris
+virginica,28,2.936,2.95,3.0 ,0.346,0.111,0.134,0.181,11.77,Sim,sepal_width,iris
+virginica,29,2.931,2.9,3.0 ,0.34,0.107,0.129,0.175,11.61,Sim,sepal_width,iris
+virginica,30,2.933,2.95,3.0 ,0.335,0.104,0.125,0.168,11.41,Sim,sepal_width,iris
+virginica,31,2.929,2.9,3.0 ,0.33,0.101,0.121,0.163,11.26,Sim,sepal_width,iris
+virginica,32,2.956,2.95,3.0 ,0.359,0.108,0.129,0.174,12.15,Sim,sepal_width,iris
+virginica,33,2.952,2.9,3.0 & 2.8 ,0.355,0.105,0.126,0.169,12.01,Sim,sepal_width,iris
+virginica,34,2.947,2.9,2.8 ,0.35,0.102,0.122,0.164,11.88,Sim,sepal_width,iris
+virginica,35,2.937,2.9,2.8 ,0.35,0.1,0.12,0.161,11.91,Sim,sepal_width,iris
+virginica,36,2.939,2.9,3.0 & 2.8 ,0.345,0.097,0.117,0.157,11.74,Sim,sepal_width,iris
+virginica,37,2.951,2.9,3.0 & 2.8 ,0.349,0.097,0.116,0.156,11.81,Sim,sepal_width,iris
+virginica,38,2.955,2.95,3.0 & 2.8 ,0.345,0.094,0.113,0.152,11.66,Sim,sepal_width,iris
+virginica,39,2.956,3.0,3.0 ,0.34,0.092,0.11,0.148,11.5,Sim,sepal_width,iris
+virginica,40,2.96,3.0,3.0 ,0.336,0.09,0.108,0.144,11.37,Sim,sepal_width,iris
+virginica,41,2.963,3.0,3.0 ,0.333,0.088,0.105,0.141,11.24,Sim,sepal_width,iris
+virginica,42,2.967,3.0,3.0 ,0.33,0.086,0.103,0.137,11.11,Sim,sepal_width,iris
+virginica,43,2.96,3.0,3.0 ,0.328,0.084,0.101,0.135,11.08,Sim,sepal_width,iris
+virginica,44,2.966,3.0,3.0 ,0.326,0.083,0.099,0.133,11.0,Sim,sepal_width,iris
+virginica,45,2.973,3.0,3.0 ,0.326,0.082,0.098,0.131,10.98,Sim,sepal_width,iris
+virginica,46,2.974,3.0,3.0 ,0.323,0.08,0.096,0.128,10.85,Sim,sepal_width,iris
+virginica,47,2.964,3.0,3.0 ,0.327,0.08,0.096,0.128,11.02,Sim,sepal_width,iris
+virginica,48,2.965,3.0,3.0 ,0.323,0.078,0.094,0.125,10.9,Sim,sepal_width,iris
+virginica,49,2.973,3.0,3.0 ,0.326,0.078,0.094,0.125,10.96,Sim,sepal_width,iris
+virginica,50,2.974,3.0,3.0 ,0.322,0.076,0.092,0.122,10.84,Sim,sepal_width,iris
+virginica,1,6.0,6.0,6.0,-,-,-,-,-,-,petal_length,iris
+virginica,2,5.55,5.55,None ,0.636,2.841,5.718,28.646,11.47,-,petal_length,iris
+virginica,3,5.667,5.9,None ,0.493,0.832,1.225,2.827,8.71,Sim,petal_length,iris
+virginica,4,5.65,5.75,None ,0.404,0.476,0.643,1.18,7.15,Sim,petal_length,iris
+virginica,5,5.68,5.8,None ,0.356,0.34,0.442,0.734,6.27,Sim,petal_length,iris
+virginica,6,5.833,5.85,None ,0.493,0.405,0.517,0.811,8.44,Sim,petal_length,iris
+virginica,7,5.643,5.8,None ,0.675,0.496,0.625,0.946,11.97,Sim,petal_length,iris
+virginica,8,5.725,5.85,None ,0.667,0.447,0.558,0.825,11.65,Sim,petal_length,iris
+virginica,9,5.733,5.8,5.8 ,0.624,0.387,0.48,0.698,10.89,Sim,petal_length,iris
+virginica,10,5.77,5.85,5.8 ,0.6,0.348,0.429,0.617,10.4,Sim,petal_length,iris
+virginica,11,5.709,5.8,5.1 & 5.8 ,0.604,0.33,0.406,0.577,10.58,Sim,petal_length,iris
+virginica,12,5.675,5.8,5.1 & 5.8 ,0.588,0.305,0.374,0.527,10.36,Sim,petal_length,iris
+virginica,13,5.662,5.8,5.1 & 5.8 ,0.565,0.279,0.341,0.479,9.98,Sim,petal_length,iris
+virginica,14,5.614,5.7,5.1 & 5.8 ,0.571,0.27,0.33,0.46,10.17,Sim,petal_length,iris
+virginica,15,5.58,5.6,5.1 ,0.566,0.257,0.313,0.435,10.14,Sim,petal_length,iris
+virginica,16,5.562,5.55,5.1 ,0.551,0.242,0.294,0.406,9.91,Sim,petal_length,iris
+virginica,17,5.559,5.5,5.1 ,0.534,0.226,0.275,0.378,9.6,Sim,petal_length,iris
+virginica,18,5.622,5.55,5.1 ,0.584,0.239,0.29,0.399,10.38,Sim,petal_length,iris
+virginica,19,5.689,5.6,5.1 ,0.638,0.254,0.308,0.422,11.22,Sim,petal_length,iris
+virginica,20,5.655,5.55,5.1 ,0.64,0.248,0.3,0.41,11.32,Sim,petal_length,iris
+virginica,21,5.657,5.6,5.1 ,0.624,0.235,0.284,0.388,11.03,Sim,petal_length,iris
+virginica,22,5.623,5.55,5.1 ,0.63,0.231,0.279,0.38,11.21,Sim,petal_length,iris
+virginica,23,5.67,5.6,5.1 ,0.655,0.235,0.283,0.385,11.56,Sim,petal_length,iris
+virginica,24,5.638,5.55,5.1 ,0.66,0.231,0.279,0.378,11.71,Sim,petal_length,iris
+virginica,25,5.64,5.6,5.1 ,0.646,0.221,0.267,0.361,11.46,Sim,petal_length,iris
+virginica,26,5.654,5.65,5.1 ,0.637,0.213,0.257,0.348,11.27,Sim,petal_length,iris
+virginica,27,5.622,5.6,5.1 ,0.646,0.212,0.256,0.345,11.49,Sim,petal_length,iris
+virginica,28,5.596,5.55,5.1 & 4.9 ,0.648,0.209,0.251,0.339,11.59,Sim,petal_length,iris
+virginica,29,5.597,5.6,5.1 & 4.9 ,0.637,0.201,0.242,0.327,11.38,Sim,petal_length,iris
+virginica,30,5.603,5.6,5.1 & 5.8 & 4.9 ,0.627,0.194,0.234,0.315,11.18,Sim,petal_length,iris
+virginica,31,5.619,5.6,5.1 & 5.8 & 4.9 ,0.623,0.19,0.228,0.308,11.08,Sim,petal_length,iris
+virginica,32,5.644,5.65,5.1 & 5.8 & 4.9 ,0.628,0.188,0.226,0.305,11.12,Sim,petal_length,iris
+virginica,33,5.642,5.6,5.1 & 5.6 & 5.8 & 4.9 ,0.618,0.182,0.219,0.295,10.95,Sim,petal_length,iris
+virginica,34,5.626,5.6,5.1 ,0.616,0.179,0.215,0.289,10.94,Sim,petal_length,iris
+virginica,35,5.626,5.6,5.1 & 5.6 ,0.607,0.173,0.208,0.28,10.78,Sim,petal_length,iris
+virginica,36,5.639,5.6,5.1 & 5.6 ,0.603,0.17,0.204,0.274,10.69,Sim,petal_length,iris
+virginica,37,5.638,5.6,5.6 ,0.595,0.165,0.198,0.266,10.55,Sim,petal_length,iris
+virginica,38,5.634,5.6,5.6 ,0.587,0.161,0.193,0.259,10.42,Sim,petal_length,iris
+virginica,39,5.613,5.6,5.6 ,0.594,0.16,0.193,0.258,10.59,Sim,petal_length,iris
+virginica,40,5.608,5.6,5.6 ,0.588,0.157,0.188,0.252,10.48,Sim,petal_length,iris
+virginica,41,5.607,5.6,5.6 ,0.58,0.153,0.183,0.245,10.35,Sim,petal_length,iris
+virginica,42,5.595,5.6,5.6 ,0.578,0.15,0.18,0.241,10.34,Sim,petal_length,iris
+virginica,43,5.584,5.6,5.1 & 5.6 ,0.576,0.148,0.177,0.237,10.32,Sim,petal_length,iris
+virginica,44,5.591,5.6,5.1 & 5.6 ,0.572,0.145,0.174,0.232,10.23,Sim,petal_length,iris
+virginica,45,5.593,5.6,5.1 & 5.6 ,0.565,0.142,0.17,0.227,10.11,Sim,petal_length,iris
+virginica,46,5.585,5.6,5.1 & 5.6 ,0.562,0.139,0.167,0.223,10.07,Sim,petal_length,iris
+virginica,47,5.572,5.6,5.1 & 5.6 ,0.562,0.138,0.165,0.22,10.09,Sim,petal_length,iris
+virginica,48,5.565,5.6,5.1 & 5.6 ,0.559,0.135,0.162,0.217,10.05,Sim,petal_length,iris
+virginica,49,5.561,5.6,5.1 & 5.6 ,0.554,0.133,0.159,0.212,9.96,Sim,petal_length,iris
+virginica,50,5.552,5.55,5.1 ,0.552,0.131,0.157,0.209,9.94,Sim,petal_length,iris
+virginica,1,2.5,2.5,2.5,-,-,-,-,-,-,petal_width,iris
+virginica,2,2.2,2.2,None ,0.424,1.894,3.812,19.097,19.28,-,petal_width,iris
+virginica,3,2.167,2.1,None ,0.306,0.515,0.759,1.751,14.1,Sim,petal_width,iris
+virginica,4,2.075,2.0,None ,0.31,0.364,0.493,0.904,14.92,Sim,petal_width,iris
+virginica,5,2.1,2.1,None ,0.274,0.261,0.34,0.564,13.04,Sim,petal_width,iris
+virginica,6,2.1,2.1,2.1 ,0.245,0.202,0.257,0.403,11.66,Sim,petal_width,iris
+virginica,7,2.043,2.1,2.1 ,0.27,0.198,0.25,0.378,13.21,Sim,petal_width,iris
+virginica,8,2.013,2.0,2.1 & 1.8 ,0.264,0.177,0.221,0.327,13.13,Sim,petal_width,iris
+virginica,9,1.989,1.9,1.8 ,0.257,0.159,0.198,0.288,12.93,Sim,petal_width,iris
+virginica,10,2.04,2.0,1.8 ,0.291,0.169,0.208,0.299,14.28,Sim,petal_width,iris
+virginica,11,2.036,2.0,1.8 ,0.277,0.151,0.186,0.264,13.59,Sim,petal_width,iris
+virginica,12,2.025,1.95,1.8 ,0.267,0.138,0.169,0.239,13.17,Sim,petal_width,iris
+virginica,13,2.031,2.0,2.1 & 1.8 ,0.256,0.127,0.155,0.217,12.62,Sim,petal_width,iris
+virginica,14,2.029,2.0,2.1 & 1.8 ,0.246,0.117,0.142,0.198,12.14,Sim,petal_width,iris
+virginica,15,2.053,2.0,2.1 & 1.8 ,0.256,0.116,0.142,0.197,12.47,Sim,petal_width,iris
+virginica,16,2.069,2.05,2.1 & 1.8 ,0.255,0.112,0.136,0.188,12.32,Sim,petal_width,iris
+virginica,17,2.053,2.0,1.8 ,0.255,0.108,0.131,0.181,12.43,Sim,petal_width,iris
+virginica,18,2.061,2.05,1.8 ,0.25,0.103,0.124,0.171,12.13,Sim,petal_width,iris
+virginica,19,2.074,2.1,1.8 ,0.249,0.099,0.12,0.164,12.01,Sim,petal_width,iris
+virginica,20,2.045,2.05,1.8 ,0.274,0.106,0.128,0.175,13.41,Sim,petal_width,iris
+virginica,21,2.057,2.1,1.8 ,0.273,0.103,0.124,0.17,13.27,Sim,petal_width,iris
+virginica,22,2.055,2.05,1.8 ,0.267,0.098,0.118,0.161,12.98,Sim,petal_width,iris
+virginica,23,2.052,2.0,1.8 & 2.0 ,0.261,0.093,0.113,0.153,12.71,Sim,petal_width,iris
+virginica,24,2.042,2.0,1.8 ,0.26,0.091,0.11,0.149,12.75,Sim,petal_width,iris
+virginica,25,2.044,2.0,1.8 ,0.255,0.087,0.105,0.143,12.48,Sim,petal_width,iris
+virginica,26,2.035,2.0,1.8 ,0.254,0.085,0.103,0.139,12.51,Sim,petal_width,iris
+virginica,27,2.026,2.0,1.8 ,0.254,0.083,0.1,0.136,12.52,Sim,petal_width,iris
+virginica,28,2.018,2.0,1.8 ,0.252,0.081,0.098,0.132,12.51,Sim,petal_width,iris
+virginica,29,2.021,2.0,1.8 ,0.248,0.078,0.094,0.127,12.29,Sim,petal_width,iris
+virginica,30,2.007,2.0,1.8 ,0.256,0.079,0.096,0.129,12.75,Sim,petal_width,iris
+virginica,31,2.003,2.0,1.8 ,0.252,0.077,0.093,0.125,12.59,Sim,petal_width,iris
+virginica,32,2.003,2.0,1.8 ,0.248,0.074,0.089,0.12,12.39,Sim,petal_width,iris
+virginica,33,2.009,2.0,1.8 ,0.247,0.073,0.087,0.118,12.28,Sim,petal_width,iris
+virginica,34,1.994,2.0,1.8 ,0.258,0.075,0.09,0.121,12.94,Sim,petal_width,iris
+virginica,35,1.977,2.0,1.8 ,0.273,0.078,0.094,0.126,13.83,Sim,petal_width,iris
+virginica,36,1.986,2.0,1.8 ,0.275,0.077,0.093,0.125,13.84,Sim,petal_width,iris
+virginica,37,1.997,2.0,1.8 ,0.279,0.078,0.093,0.125,13.99,Sim,petal_width,iris
+virginica,38,1.992,2.0,1.8 ,0.277,0.076,0.091,0.122,13.93,Sim,petal_width,iris
+virginica,39,1.987,2.0,1.8 ,0.275,0.074,0.089,0.12,13.86,Sim,petal_width,iris
+virginica,40,1.99,2.0,1.8 ,0.273,0.073,0.087,0.117,13.69,Sim,petal_width,iris
+virginica,41,2.0,2.0,1.8 ,0.277,0.073,0.087,0.117,13.83,Sim,petal_width,iris
+virginica,42,2.007,2.0,1.8 ,0.277,0.072,0.086,0.115,13.81,Sim,petal_width,iris
+virginica,43,2.005,2.0,1.8 ,0.274,0.07,0.084,0.113,13.68,Sim,petal_width,iris
+virginica,44,2.011,2.0,1.8 ,0.275,0.07,0.084,0.112,13.66,Sim,petal_width,iris
+virginica,45,2.022,2.0,1.8 ,0.281,0.07,0.084,0.113,13.9,Sim,petal_width,iris
+virginica,46,2.028,2.0,1.8 ,0.281,0.07,0.083,0.111,13.85,Sim,petal_width,iris
+virginica,47,2.026,2.0,1.8 ,0.279,0.068,0.082,0.109,13.75,Sim,petal_width,iris
+virginica,48,2.025,2.0,1.8 ,0.276,0.067,0.08,0.107,13.61,Sim,petal_width,iris
+virginica,49,2.031,2.0,1.8 ,0.276,0.066,0.079,0.106,13.57,Sim,petal_width,iris
+virginica,50,2.026,2.0,1.8 ,0.275,0.065,0.078,0.104,13.56,Sim,petal_width,iris
+versicolor,1,7.0,7.0,7.0,-,-,-,-,-,-,sepal_length,iris
+versicolor,2,6.7,6.7,None ,0.424,1.894,3.812,19.097,6.33,-,sepal_length,iris
+versicolor,3,6.767,6.9,None ,0.321,0.542,0.799,1.842,4.75,Sim,sepal_length,iris
+versicolor,4,6.45,6.65,None ,0.686,0.807,1.091,2.002,10.63,Sim,sepal_length,iris
+versicolor,5,6.46,6.5,None ,0.594,0.566,0.738,1.223,9.2,Sim,sepal_length,iris
+versicolor,6,6.333,6.45,None ,0.615,0.506,0.646,1.013,9.72,Sim,sepal_length,iris
+versicolor,7,6.329,6.4,None ,0.562,0.413,0.52,0.787,8.88,Sim,sepal_length,iris
+versicolor,8,6.15,6.35,None ,0.725,0.486,0.606,0.897,11.79,Sim,sepal_length,iris
+versicolor,9,6.2,6.4,None ,0.695,0.431,0.534,0.777,11.2,Sim,sepal_length,iris
+versicolor,10,6.1,6.35,None ,0.727,0.422,0.52,0.747,11.92,Sim,sepal_length,iris
+versicolor,11,6.0,6.3,None ,0.766,0.418,0.514,0.731,12.76,Sim,sepal_length,iris
+versicolor,12,5.992,6.1,None ,0.73,0.379,0.464,0.655,12.19,Sim,sepal_length,iris
+versicolor,13,5.992,6.0,None ,0.699,0.346,0.423,0.592,11.67,Sim,sepal_length,iris
+versicolor,14,6.0,6.05,None ,0.673,0.318,0.388,0.541,11.21,Sim,sepal_length,iris
+versicolor,15,5.973,6.0,None ,0.656,0.298,0.363,0.504,10.99,Sim,sepal_length,iris
+versicolor,16,6.019,6.05,None ,0.66,0.289,0.351,0.486,10.96,Sim,sepal_length,iris
+versicolor,17,5.994,6.0,5.6 ,0.647,0.274,0.332,0.458,10.79,Sim,sepal_length,iris
+versicolor,18,5.983,5.95,5.6 ,0.629,0.258,0.313,0.43,10.51,Sim,sepal_length,iris
+versicolor,19,5.995,6.0,5.6 ,0.613,0.244,0.296,0.405,10.23,Sim,sepal_length,iris
+versicolor,20,5.975,5.95,5.6 ,0.603,0.233,0.282,0.386,10.1,Sim,sepal_length,iris
+versicolor,21,5.971,5.9,5.6 ,0.588,0.221,0.268,0.365,9.85,Sim,sepal_length,iris
+versicolor,22,5.977,5.95,5.6 ,0.575,0.211,0.255,0.347,9.62,Sim,sepal_length,iris
+versicolor,23,5.991,6.0,5.6 ,0.566,0.203,0.245,0.332,9.44,Sim,sepal_length,iris
+versicolor,24,5.996,6.05,6.1 & 5.6 ,0.554,0.194,0.234,0.317,9.23,Sim,sepal_length,iris
+versicolor,25,6.012,6.1,6.1 & 5.6 ,0.548,0.188,0.226,0.307,9.11,Sim,sepal_length,iris
+versicolor,26,6.035,6.1,6.1 & 5.6 ,0.549,0.184,0.222,0.3,9.1,Sim,sepal_length,iris
+versicolor,27,6.063,6.1,6.1 & 5.6 ,0.558,0.183,0.221,0.299,9.21,Sim,sepal_length,iris
+versicolor,28,6.086,6.1,6.1 & 5.6 ,0.561,0.181,0.217,0.294,9.22,Sim,sepal_length,iris
+versicolor,29,6.083,6.1,6.1 & 5.6 ,0.551,0.174,0.21,0.283,9.06,Sim,sepal_length,iris
+versicolor,30,6.07,6.1,6.1 & 5.6 ,0.546,0.169,0.204,0.275,8.99,Sim,sepal_length,iris
+versicolor,31,6.052,6.1,6.1 & 5.6 ,0.546,0.167,0.2,0.27,9.03,Sim,sepal_length,iris
+versicolor,32,6.034,6.05,5.5 & 6.1 & 5.6 ,0.546,0.164,0.197,0.265,9.05,Sim,sepal_length,iris
+versicolor,33,6.027,6.0,5.5 & 6.1 & 5.6 ,0.539,0.159,0.191,0.257,8.95,Sim,sepal_length,iris
+versicolor,34,6.026,6.0,5.5 & 6.0 & 6.1 & 5.6 ,0.531,0.154,0.185,0.249,8.81,Sim,sepal_length,iris
+versicolor,35,6.009,6.0,5.5 & 6.0 & 6.1 & 5.6 ,0.534,0.153,0.183,0.246,8.88,Sim,sepal_length,iris
+versicolor,36,6.008,6.0,6.0 ,0.526,0.148,0.178,0.239,8.76,Sim,sepal_length,iris
+versicolor,37,6.027,6.0,6.0 ,0.531,0.147,0.177,0.237,8.81,Sim,sepal_length,iris
+versicolor,38,6.034,6.0,6.0 ,0.526,0.144,0.173,0.232,8.71,Sim,sepal_length,iris
+versicolor,39,6.023,6.0,6.0 & 5.6 ,0.523,0.141,0.17,0.227,8.69,Sim,sepal_length,iris
+versicolor,40,6.01,6.0,5.5 & 6.0 & 5.6 ,0.523,0.139,0.167,0.224,8.71,Sim,sepal_length,iris
+versicolor,41,5.998,6.0,5.5 ,0.523,0.137,0.165,0.221,8.72,Sim,sepal_length,iris
+versicolor,42,6.0,6.0,5.5 ,0.517,0.134,0.161,0.215,8.61,Sim,sepal_length,iris
+versicolor,43,5.995,6.0,5.5 ,0.511,0.131,0.157,0.21,8.53,Sim,sepal_length,iris
+versicolor,44,5.973,6.0,5.5 ,0.527,0.134,0.16,0.214,8.83,Sim,sepal_length,iris
+versicolor,45,5.964,6.0,5.5 & 5.6 ,0.524,0.131,0.157,0.21,8.79,Sim,sepal_length,iris
+versicolor,46,5.959,5.95,5.5 & 5.6 ,0.52,0.129,0.154,0.206,8.72,Sim,sepal_length,iris
+versicolor,47,5.953,5.9,5.5 & 5.6 ,0.515,0.126,0.151,0.202,8.66,Sim,sepal_length,iris
+versicolor,48,5.958,5.95,5.5 & 5.6 ,0.511,0.124,0.148,0.198,8.58,Sim,sepal_length,iris
+versicolor,49,5.941,5.9,5.5 & 5.6 ,0.52,0.125,0.149,0.199,8.76,Sim,sepal_length,iris
+versicolor,50,5.936,5.9,5.5 & 5.7 & 5.6 ,0.516,0.122,0.147,0.196,8.7,Sim,sepal_length,iris
+versicolor,1,3.2,3.2,3.2,-,-,-,-,-,-,sepal_width,iris
+versicolor,2,3.2,3.2,3.2 ,0.0,0.0,0.0,0.0,0.0,-,sepal_width,iris
+versicolor,3,3.167,3.2,3.2 ,0.058,0.097,0.143,0.331,1.82,Não,sepal_width,iris
+versicolor,4,2.95,3.15,3.2 ,0.436,0.513,0.694,1.273,14.78,Não,sepal_width,iris
+versicolor,5,2.92,3.1,3.2 ,0.383,0.366,0.476,0.789,13.13,Sim,sepal_width,iris
+versicolor,6,2.9,2.95,3.2 & 2.8 ,0.346,0.285,0.364,0.57,11.95,Sim,sepal_width,iris
+versicolor,7,2.957,3.1,3.2 & 2.8 ,0.351,0.257,0.324,0.491,11.85,Sim,sepal_width,iris
+versicolor,8,2.888,2.95,3.2 & 2.8 ,0.38,0.254,0.317,0.47,13.15,Sim,sepal_width,iris
+versicolor,9,2.889,2.9,3.2 & 2.8 ,0.355,0.22,0.273,0.397,12.29,Sim,sepal_width,iris
+versicolor,10,2.87,2.85,3.2 & 2.8 ,0.34,0.197,0.243,0.35,11.85,Sim,sepal_width,iris
+versicolor,11,2.791,2.8,3.2 & 2.8 ,0.416,0.227,0.279,0.397,14.9,Sim,sepal_width,iris
+versicolor,12,2.808,2.85,3.2 & 2.8 ,0.401,0.208,0.255,0.36,14.28,Sim,sepal_width,iris
+versicolor,13,2.762,2.8,3.2 & 2.8 ,0.419,0.207,0.253,0.355,15.19,Sim,sepal_width,iris
+versicolor,14,2.771,2.85,3.2 & 2.8 & 2.9 ,0.405,0.192,0.234,0.326,14.6,Sim,sepal_width,iris
+versicolor,15,2.78,2.9,2.9 ,0.391,0.178,0.217,0.301,14.08,Sim,sepal_width,iris
+versicolor,16,2.8,2.9,2.9 ,0.386,0.169,0.206,0.285,13.8,Sim,sepal_width,iris
+versicolor,17,2.812,2.9,2.9 ,0.377,0.16,0.194,0.267,13.42,Sim,sepal_width,iris
+versicolor,18,2.806,2.9,2.9 ,0.367,0.15,0.182,0.251,13.08,Sim,sepal_width,iris
+versicolor,19,2.774,2.9,2.9 ,0.383,0.152,0.184,0.253,13.8,Sim,sepal_width,iris
+versicolor,20,2.76,2.85,2.9 ,0.378,0.146,0.177,0.242,13.68,Sim,sepal_width,iris
+versicolor,21,2.781,2.9,3.2 & 2.9 ,0.38,0.143,0.173,0.236,13.67,Sim,sepal_width,iris
+versicolor,22,2.782,2.85,3.2 & 2.8 & 2.9 ,0.371,0.136,0.165,0.224,13.34,Sim,sepal_width,iris
+versicolor,23,2.77,2.8,3.2 & 2.8 & 2.9 ,0.367,0.132,0.159,0.216,13.26,Sim,sepal_width,iris
+versicolor,24,2.771,2.8,2.8 ,0.359,0.126,0.152,0.206,12.97,Sim,sepal_width,iris
+versicolor,25,2.776,2.8,2.8 & 2.9 ,0.353,0.121,0.146,0.197,12.71,Sim,sepal_width,iris
+versicolor,26,2.785,2.85,2.8 & 2.9 ,0.348,0.117,0.141,0.19,12.51,Sim,sepal_width,iris
+versicolor,27,2.785,2.8,2.8 ,0.342,0.112,0.135,0.183,12.27,Sim,sepal_width,iris
+versicolor,28,2.793,2.85,2.8 ,0.338,0.109,0.131,0.177,12.09,Sim,sepal_width,iris
+versicolor,29,2.797,2.9,2.8 & 2.9 ,0.332,0.105,0.126,0.17,11.88,Sim,sepal_width,iris
+versicolor,30,2.79,2.85,2.8 & 2.9 ,0.328,0.102,0.123,0.165,11.77,Sim,sepal_width,iris
+versicolor,31,2.777,2.8,2.8 & 2.9 ,0.33,0.101,0.121,0.163,11.89,Sim,sepal_width,iris
+versicolor,32,2.766,2.8,2.8 & 2.9 ,0.332,0.099,0.12,0.161,12.0,Sim,sepal_width,iris
+versicolor,33,2.764,2.8,2.8 & 2.9 ,0.327,0.096,0.116,0.156,11.82,Sim,sepal_width,iris
+versicolor,34,2.762,2.8,2.8 & 2.9 ,0.322,0.093,0.112,0.151,11.66,Sim,sepal_width,iris
+versicolor,35,2.769,2.8,2.8 & 2.9 & 3.0 ,0.32,0.091,0.11,0.147,11.55,Sim,sepal_width,iris
+versicolor,36,2.786,2.8,2.8 & 2.9 & 3.0 ,0.332,0.094,0.112,0.151,11.92,Sim,sepal_width,iris
+versicolor,37,2.795,2.8,2.8 & 2.9 & 3.0 ,0.332,0.092,0.111,0.148,11.87,Sim,sepal_width,iris
+versicolor,38,2.782,2.8,2.8 & 2.9 & 3.0 ,0.337,0.092,0.111,0.148,12.11,Sim,sepal_width,iris
+versicolor,39,2.787,2.8,3.0 ,0.334,0.09,0.108,0.145,11.99,Sim,sepal_width,iris
+versicolor,40,2.78,2.8,3.0 ,0.333,0.089,0.106,0.143,11.98,Sim,sepal_width,iris
+versicolor,41,2.776,2.8,3.0 ,0.33,0.087,0.104,0.139,11.89,Sim,sepal_width,iris
+versicolor,42,2.781,2.8,3.0 ,0.328,0.085,0.102,0.137,11.79,Sim,sepal_width,iris
+versicolor,43,2.777,2.8,3.0 ,0.325,0.083,0.1,0.134,11.71,Sim,sepal_width,iris
+versicolor,44,2.766,2.8,3.0 ,0.329,0.083,0.1,0.134,11.9,Sim,sepal_width,iris
+versicolor,45,2.764,2.8,3.0 ,0.326,0.082,0.098,0.131,11.78,Sim,sepal_width,iris
+versicolor,46,2.77,2.8,3.0 ,0.324,0.08,0.096,0.128,11.69,Sim,sepal_width,iris
+versicolor,47,2.772,2.8,3.0 ,0.321,0.079,0.094,0.126,11.57,Sim,sepal_width,iris
+versicolor,48,2.775,2.8,3.0 ,0.318,0.077,0.092,0.123,11.46,Sim,sepal_width,iris
+versicolor,49,2.769,2.8,3.0 ,0.317,0.076,0.091,0.121,11.45,Sim,sepal_width,iris
+versicolor,50,2.77,2.8,3.0 ,0.314,0.074,0.089,0.119,11.33,Sim,sepal_width,iris
+versicolor,1,4.7,4.7,4.7,-,-,-,-,-,-,petal_length,iris
+versicolor,2,4.6,4.6,None ,0.141,0.631,1.271,6.366,3.07,-,petal_length,iris
+versicolor,3,4.7,4.7,None ,0.2,0.337,0.497,1.146,4.26,Sim,petal_length,iris
+versicolor,4,4.525,4.6,None ,0.386,0.454,0.615,1.128,8.54,Sim,petal_length,iris
+versicolor,5,4.54,4.6,None ,0.336,0.32,0.417,0.692,7.4,Sim,petal_length,iris
+versicolor,6,4.533,4.55,4.5 ,0.301,0.248,0.316,0.496,6.64,Sim,petal_length,iris
+versicolor,7,4.557,4.6,4.7 & 4.5 ,0.282,0.207,0.261,0.395,6.19,Sim,petal_length,iris
+versicolor,8,4.4,4.55,4.7 & 4.5 ,0.515,0.345,0.431,0.638,11.72,Não,petal_length,iris
+versicolor,9,4.422,4.6,4.7 & 4.5 & 4.6 ,0.487,0.302,0.374,0.544,11.01,Não,petal_length,iris
+versicolor,10,4.37,4.55,4.7 & 4.5 & 4.6 ,0.488,0.283,0.349,0.501,11.16,Sim,petal_length,iris
+versicolor,11,4.291,4.5,4.7 & 4.5 & 4.6 ,0.532,0.291,0.357,0.508,12.4,Sim,petal_length,iris
+versicolor,12,4.283,4.5,4.7 & 4.5 & 4.6 ,0.508,0.263,0.323,0.455,11.86,Sim,petal_length,iris
+versicolor,13,4.262,4.5,4.7 & 4.5 & 4.0 & 4.6 ,0.493,0.243,0.298,0.417,11.56,Sim,petal_length,iris
+versicolor,14,4.293,4.5,4.7 ,0.487,0.231,0.281,0.392,11.36,Sim,petal_length,iris
+versicolor,15,4.247,4.5,4.7 ,0.503,0.229,0.278,0.386,11.84,Sim,petal_length,iris
+versicolor,16,4.256,4.45,4.7 ,0.487,0.213,0.26,0.359,11.44,Sim,petal_length,iris
+versicolor,17,4.271,4.5,4.7 & 4.5 ,0.475,0.201,0.244,0.337,11.13,Sim,petal_length,iris
+versicolor,18,4.261,4.45,4.7 & 4.5 ,0.463,0.19,0.23,0.316,10.86,Sim,petal_length,iris
+versicolor,19,4.274,4.5,4.5 ,0.453,0.18,0.218,0.299,10.6,Sim,petal_length,iris
+versicolor,20,4.255,4.45,4.5 ,0.449,0.174,0.21,0.287,10.55,Sim,petal_length,iris
+versicolor,21,4.281,4.5,4.5 ,0.453,0.171,0.206,0.282,10.59,Sim,petal_length,iris
+versicolor,22,4.268,4.45,4.5 ,0.447,0.164,0.198,0.27,10.46,Sim,petal_length,iris
+versicolor,23,4.296,4.5,4.5 ,0.456,0.163,0.197,0.268,10.61,Sim,petal_length,iris
+versicolor,24,4.312,4.5,4.7 & 4.5 ,0.453,0.159,0.191,0.26,10.51,Sim,petal_length,iris
+versicolor,25,4.312,4.5,4.7 & 4.5 ,0.444,0.152,0.183,0.248,10.29,Sim,petal_length,iris
+versicolor,26,4.315,4.45,4.7 & 4.5 ,0.435,0.146,0.176,0.238,10.08,Sim,petal_length,iris
+versicolor,27,4.333,4.5,4.7 & 4.5 ,0.437,0.143,0.173,0.234,10.08,Sim,petal_length,iris
+versicolor,28,4.357,4.5,4.7 & 4.5 ,0.447,0.144,0.173,0.234,10.25,Sim,petal_length,iris
+versicolor,29,4.362,4.5,4.5 ,0.439,0.139,0.167,0.226,10.08,Sim,petal_length,iris
+versicolor,30,4.333,4.5,4.5 ,0.46,0.143,0.172,0.231,10.61,Sim,petal_length,iris
+versicolor,31,4.316,4.5,4.5 ,0.462,0.141,0.169,0.228,10.7,Sim,petal_length,iris
+versicolor,32,4.297,4.45,4.5 ,0.467,0.14,0.168,0.227,10.88,Sim,petal_length,iris
+versicolor,33,4.285,4.4,4.5 ,0.465,0.137,0.165,0.222,10.85,Sim,petal_length,iris
+versicolor,34,4.309,4.45,4.5 ,0.479,0.139,0.167,0.224,11.11,Sim,petal_length,iris
+versicolor,35,4.314,4.5,4.5 ,0.473,0.135,0.162,0.218,10.96,Sim,petal_length,iris
+versicolor,36,4.319,4.5,4.5 ,0.467,0.132,0.158,0.212,10.81,Sim,petal_length,iris
+versicolor,37,4.33,4.5,4.5 ,0.465,0.129,0.155,0.208,10.74,Sim,petal_length,iris
+versicolor,38,4.332,4.5,4.5 ,0.459,0.126,0.151,0.202,10.59,Sim,petal_length,iris
+versicolor,39,4.326,4.5,4.5 ,0.454,0.123,0.147,0.197,10.5,Sim,petal_length,iris
+versicolor,40,4.318,4.45,4.5 ,0.451,0.12,0.144,0.193,10.45,Sim,petal_length,iris
+versicolor,41,4.32,4.4,4.5 ,0.446,0.117,0.141,0.188,10.32,Sim,petal_length,iris
+versicolor,42,4.326,4.45,4.5 ,0.442,0.115,0.138,0.184,10.22,Sim,petal_length,iris
+versicolor,43,4.319,4.4,4.5 ,0.44,0.113,0.135,0.181,10.18,Sim,petal_length,iris
+versicolor,44,4.295,4.4,4.5 ,0.461,0.117,0.14,0.187,10.73,Sim,petal_length,iris
+versicolor,45,4.293,4.4,4.5 ,0.456,0.114,0.137,0.183,10.62,Sim,petal_length,iris
+versicolor,46,4.291,4.4,4.5 ,0.451,0.112,0.134,0.179,10.51,Sim,petal_length,iris
+versicolor,47,4.289,4.4,4.5 ,0.446,0.109,0.131,0.175,10.41,Sim,petal_length,iris
+versicolor,48,4.29,4.4,4.5 ,0.442,0.107,0.128,0.171,10.29,Sim,petal_length,iris
+versicolor,49,4.263,4.4,4.5 ,0.474,0.114,0.136,0.182,11.12,Sim,petal_length,iris
+versicolor,50,4.26,4.35,4.5 ,0.47,0.111,0.134,0.178,11.03,Sim,petal_length,iris
+versicolor,1,1.4,1.4,1.4,-,-,-,-,-,-,petal_width,iris
+versicolor,2,1.45,1.45,None ,0.071,0.316,0.635,3.183,4.88,-,petal_width,iris
+versicolor,3,1.467,1.5,1.5 ,0.058,0.097,0.143,0.331,3.94,Não,petal_width,iris
+versicolor,4,1.425,1.45,1.5 ,0.096,0.113,0.152,0.28,6.72,Sim,petal_width,iris
+versicolor,5,1.44,1.5,1.5 ,0.089,0.085,0.111,0.184,6.21,Sim,petal_width,iris
+versicolor,6,1.417,1.45,1.5 ,0.098,0.081,0.103,0.162,6.94,Não,petal_width,iris
+versicolor,7,1.443,1.5,1.5 ,0.113,0.083,0.105,0.159,7.86,Sim,petal_width,iris
+versicolor,8,1.388,1.45,1.5 ,0.189,0.126,0.158,0.233,13.59,Sim,petal_width,iris
+versicolor,9,1.378,1.4,1.5 & 1.3 ,0.179,0.111,0.137,0.2,12.97,Sim,petal_width,iris
+versicolor,10,1.38,1.4,1.5 & 1.3 ,0.169,0.098,0.121,0.173,12.22,Sim,petal_width,iris
+versicolor,11,1.345,1.4,1.5 & 1.3 ,0.197,0.108,0.132,0.188,14.63,Sim,petal_width,iris
+versicolor,12,1.358,1.4,1.5 ,0.193,0.1,0.123,0.173,14.2,Não,petal_width,iris
+versicolor,13,1.331,1.4,1.5 ,0.21,0.104,0.127,0.178,15.76,Não,petal_width,iris
+versicolor,14,1.336,1.4,1.5 ,0.202,0.096,0.117,0.163,15.15,Não,petal_width,iris
+versicolor,15,1.333,1.4,1.5 & 1.3 ,0.195,0.089,0.108,0.15,14.64,Não,petal_width,iris
+versicolor,16,1.338,1.4,1.4 & 1.5 & 1.3 ,0.189,0.083,0.101,0.139,14.15,Não,petal_width,iris
+versicolor,17,1.347,1.4,1.5 ,0.187,0.079,0.096,0.133,13.92,Não,petal_width,iris
+versicolor,18,1.328,1.4,1.5 ,0.199,0.082,0.099,0.136,15.02,Não,petal_width,iris
+versicolor,19,1.337,1.4,1.5 ,0.198,0.079,0.095,0.131,14.8,Não,petal_width,iris
+versicolor,20,1.325,1.4,1.5 ,0.2,0.077,0.093,0.128,15.07,Não,petal_width,iris
+versicolor,21,1.348,1.4,1.5 ,0.22,0.083,0.1,0.137,16.36,Não,petal_width,iris
+versicolor,22,1.345,1.4,1.5 ,0.215,0.079,0.096,0.13,16.01,Não,petal_width,iris
+versicolor,23,1.352,1.4,1.5 ,0.213,0.076,0.092,0.125,15.75,Não,petal_width,iris
+versicolor,24,1.346,1.4,1.5 ,0.211,0.074,0.089,0.121,15.64,Sim,petal_width,iris
+versicolor,25,1.344,1.4,1.5 ,0.206,0.071,0.085,0.115,15.35,Sim,petal_width,iris
+versicolor,26,1.346,1.4,1.5 ,0.202,0.068,0.082,0.111,15.04,Não,petal_width,iris
+versicolor,27,1.348,1.4,1.5 ,0.199,0.065,0.079,0.106,14.75,Não,petal_width,iris
+versicolor,28,1.361,1.4,1.5 ,0.206,0.066,0.08,0.108,15.15,Sim,petal_width,iris
+versicolor,29,1.366,1.4,1.5 ,0.204,0.064,0.078,0.105,14.94,Não,petal_width,iris
+versicolor,30,1.353,1.4,1.5 ,0.211,0.066,0.079,0.106,15.61,Não,petal_width,iris
+versicolor,31,1.345,1.4,1.5 ,0.213,0.065,0.078,0.105,15.81,Não,petal_width,iris
+versicolor,32,1.334,1.4,1.5 ,0.218,0.065,0.079,0.106,16.33,Não,petal_width,iris
+versicolor,33,1.33,1.4,1.5 ,0.216,0.064,0.077,0.103,16.22,Não,petal_width,iris
+versicolor,34,1.338,1.4,1.5 ,0.217,0.063,0.076,0.102,16.25,Não,petal_width,iris
+versicolor,35,1.343,1.4,1.5 ,0.216,0.062,0.074,0.1,16.08,Não,petal_width,iris
+versicolor,36,1.35,1.4,1.5 ,0.217,0.061,0.073,0.099,16.08,Não,petal_width,iris
+versicolor,37,1.354,1.4,1.5 ,0.216,0.06,0.072,0.096,15.92,Não,petal_width,iris
+versicolor,38,1.353,1.4,1.5 ,0.213,0.058,0.07,0.094,15.73,Não,petal_width,iris
+versicolor,39,1.351,1.4,1.5 ,0.21,0.057,0.068,0.091,15.55,Não,petal_width,iris
+versicolor,40,1.35,1.4,1.5 ,0.208,0.055,0.066,0.089,15.37,Não,petal_width,iris
+versicolor,41,1.346,1.4,1.5 ,0.206,0.054,0.065,0.087,15.32,Não,petal_width,iris
+versicolor,42,1.348,1.4,1.5 ,0.204,0.053,0.064,0.085,15.13,Não,petal_width,iris
+versicolor,43,1.344,1.4,1.5 ,0.203,0.052,0.062,0.083,15.08,Sim,petal_width,iris
+versicolor,44,1.336,1.35,1.5 ,0.207,0.052,0.063,0.084,15.49,Não,petal_width,iris
+versicolor,45,1.336,1.3,1.5 & 1.3 ,0.205,0.051,0.061,0.082,15.32,Não,petal_width,iris
+versicolor,46,1.333,1.3,1.5 & 1.3 ,0.203,0.05,0.06,0.081,15.26,Não,petal_width,iris
+versicolor,47,1.332,1.3,1.3 ,0.201,0.049,0.059,0.079,15.11,Não,petal_width,iris
+versicolor,48,1.331,1.3,1.3 ,0.199,0.048,0.058,0.077,14.96,Não,petal_width,iris
+versicolor,49,1.327,1.3,1.3 ,0.2,0.048,0.057,0.077,15.06,Sim,petal_width,iris
+versicolor,50,1.326,1.3,1.3 ,0.198,0.047,0.056,0.075,14.91,Sim,petal_width,iris
