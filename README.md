@@ -21,5 +21,5 @@ Apesar de ser estruturalmente um dashboard multipage, este exemplo trás uma pá
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/andersonmdcanteli/termo/main/images/screenshot.PNG" alt="screenshot do dashboard finalizando, mostrando o painel de configurações" width="800px">
+<img src="https://raw.githubusercontent.com/andersonmdcanteli/termo/main/README.md" alt="screenshot do dashboard finalizando" width="800px">
 </p>
