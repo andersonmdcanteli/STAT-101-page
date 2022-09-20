@@ -20,7 +20,7 @@ para instalar as dependências. Tenha preferência para um ambiente virtual com 
 
 ## Uso
 
-Para criar um servidor local, utilize python app.py na raiz do programa. Então, basta acessar o link que será gerado. 
+Para criar um servidor local, utilize python app.py na raiz do programa. Então, basta acessar o link que será gerado.
 
 ## Dashboard
 
@@ -30,3 +30,9 @@ Apesar de ser estruturalmente um dashboard multipage, este exemplo trás uma pá
 <p align="center">
 <img src="https://raw.githubusercontent.com/andersonmdcanteli/STAT-101-page/main/assets/screencapture.png" alt="screenshot do dashboard finalizando" width="800px">
 </p>
+
+
+
+## Licença
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
